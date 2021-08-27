@@ -15,8 +15,10 @@ section{
 }
 
 footer{
-    height: 500px;
+    padding: 80px;
     background: black;
+    color: white;
+    text-align: center;
 }
 
 nav{
@@ -133,4 +135,16 @@ hr{
 .project-link{
     text-decoration: none;
     color: #ef744b;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+@media only screen and (max-width: 1000px) {
+    .project-container{
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
