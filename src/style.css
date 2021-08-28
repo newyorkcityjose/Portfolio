@@ -1,17 +1,25 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: none;
+}
 
 body{
-    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
 }
 section{
     background-color: white;
 }
 
 .hero{
-    background: #1c1d25;
+    background: url('./image/support.svg');
+    background-repeat: no-repeat;
+    background-position: right;
     height: 100vh;
-    color: white;
+    color: black;
     font-size: 40px;
+    
 }
 
 footer{
@@ -23,7 +31,11 @@ footer{
 
 nav{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    background-color: rgba(50,22,147,255)
+    ; 
+    align-items: center;
+
 }
 
 ul{
@@ -31,7 +43,7 @@ ul{
     list-style-type: none;
     width: 500px;
     justify-content: space-around;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 li{
@@ -125,6 +137,16 @@ p{
     margin-top: 25px;
     width: 250px;
 
+}
+.social-icon{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.icon{
+    margin-left: 30px;
+    
 }
 
 hr{
