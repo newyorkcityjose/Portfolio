@@ -57,7 +57,7 @@ h2 {
 }
 
 p {
-  font-size: 30px;
+
   margin: 0;
   font-weight: 300;
 }
@@ -105,9 +105,14 @@ p {
   margin: 20px;
 }
 .sub-section {
-  /*display: flex;
-    justify-content: space-around;
-    padding: 80px; */
+  /* display: flex; */
+    /* justify-content: space-around; */
+    padding-bottom: 50px; 
+}
+
+.sub-section-alternative {
+
+  margin-top: 100px;
 }
 
 .project-card {
@@ -122,12 +127,6 @@ p {
   justify-content: space-around;
 }
 
-.sub-section-alternative {
-  /* display: flex;
-    flex-direction: column;
-    text-align: center;
-    padding: 80px; */
-}
 
 .project-image {
   margin-top: 25px;
@@ -155,7 +154,7 @@ hr {
   color: #ef744b;
 }
 
-a {
+.navbar-a{
   text-decoration: none;
   color: white;
 }
@@ -185,6 +184,9 @@ hr {
   position: absolute;
   top: 1175px;
 }
+.show-p {
+  font-size: 30px;
+}
 .listItem {
   max-width: 320px;
   display: grid;
@@ -203,6 +205,7 @@ hr {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   width: 40%;
+  margin: 50px;
  
 }
 
@@ -215,11 +218,11 @@ hr {
 }
 
 #btn{
-    display:block;
+    /* display:block;
     background:  rgba(50, 22, 147, 255);
     cursor: pointer;
     color: white;
-    padding:10px;
+    padding:10px; */
 }
 
 @media only screen and (max-width: 1000px) {
