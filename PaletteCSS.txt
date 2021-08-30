@@ -1,0 +1,36 @@
+/* CSS HEX */
+--steel-gray: #1f1b2b;
+--roman: #d8635d;
+--mercury: #e2e2e2;
+--gray: #8e8e8e;
+--dove-gray: #646464;
+--hurricane: #807473;
+--silver: #b9b9b9;
+--martini: #b39f9e;
+--eunry: #d4aca4;
+
+
+/* SCSS HEX */
+$steel-gray: #1f1b2b;
+$roman: #d8635d;
+$mercury: #e2e2e2;
+$gray: #8e8e8e;
+$dove-gray: #646464;
+$hurricane: #807473;
+$silver: #b9b9b9;
+$martini: #b39f9e;
+$eunry: #d4aca4;
+
+
+/* SCSS RGB */
+--steel-gray: rgba(31,27,43,1);
+--roman: rgba(216,99,93,1);
+--mercury: rgba(226,226,226,1);
+--gray: rgba(142,142,142,1);
+--dove-gray: rgba(100,100,100,1);
+--hurricane: rgba(128,116,115,1);
+--silver: rgba(185,185,185,1);
+--martini: rgba(179,159,158,1);
+--eunry: rgba(212,172,164,1);
+
+
