@@ -330,3 +330,10 @@ hr {
   margin-top: 70px;
   display: flex;
 }
+
+
+.style-recap{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
