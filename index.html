@@ -166,18 +166,22 @@
       <h2><a href="#home" style="color: white;">Contact me</a></h2>
       <hr class="underline" />
       <div class="container-form">
-        <form>
+
+        <form action="POST" data-netlify="true" data-netlify-recaptcha="true">
           <div class="form-control">
-            <input type="text" required />
+            <input type="text" name="name" required />
             <label>Name</label>
           </div>
           <div class="form-control">
-            <input type="text" required />
+            <input type="email" name="email" required />
             <label>Email</label>
           </div>
           <div class="form-control">
-            <input type="text" required />
+            <input type="text" name="message" required />
             <label>Message</label>
+          </div>
+          <div class="field">
+            <div data-netlify-recaptcha="true"></div>
           </div>
 
           <button class="btn">Submit</button>
