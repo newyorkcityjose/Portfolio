@@ -96,7 +96,7 @@ a{
 .sub-section {
   /* display: flex; */
     /* justify-content: space-around; */
-    padding-bottom: 50px; 
+    padding-bottom: 10px; 
 }
 
 .sub-section-alternative {
@@ -326,4 +326,7 @@ hr {
   color: lightblue;
   transform: translateY(-30px);
 }
-
+.footer-div{
+  margin-top: 70px;
+  display: flex;
+}
