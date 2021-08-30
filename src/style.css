@@ -22,10 +22,11 @@ section {
 }
 
 footer {
-  padding: 80px;
+  padding-top: 60px;
+  padding-bottom: 20px;
   background: black;
   color: white;
-  display:flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
@@ -60,11 +61,10 @@ h2 {
 }
 
 p {
-
   margin: 0;
   font-weight: 300;
 }
-a{
+a {
   text-decoration: none;
   color: black;
 }
@@ -85,8 +85,6 @@ a{
   margin-bottom: 200px;
 }
 
-
-
 .socials {
   padding-bottom: 200px;
 }
@@ -95,12 +93,11 @@ a{
 }
 .sub-section {
   /* display: flex; */
-    /* justify-content: space-around; */
-    padding-bottom: 10px; 
+  /* justify-content: space-around; */
+  padding-bottom: 10px;
 }
 
 .sub-section-alternative {
-
   margin-top: 100px;
 }
 
@@ -118,7 +115,6 @@ a{
   margin: 0 auto;
 }
 
-
 .project-image {
   margin-top: 25px;
   width: 250px;
@@ -131,7 +127,6 @@ a{
   margin-left: 25px;
 }
 
-
 hr {
   margin-left: 20px;
   margin-right: 20px;
@@ -142,7 +137,7 @@ hr {
   color: #ef744b;
 }
 
-.navbar-a{
+.navbar-a {
   text-decoration: none;
   color: white;
 }
@@ -156,7 +151,7 @@ hr {
   border: 0;
   margin: 0;
 }
-.underline-project{
+.underline-project {
   width: 200px;
   height: 5px;
   /* background:#ec615b; */
@@ -207,18 +202,17 @@ hr {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
-.card-link{
+.card-link {
   text-decoration: none;
   margin: 20px;
-
 }
-.card-img{
+.card-img {
   image-rendering: auto;
   /* image-rendering: crisp-edges; */
   /* image-rendering: pixelated; */
-  width: 100%
+  width: 100%;
 }
-.card-div-link{
+.card-div-link {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
@@ -228,8 +222,8 @@ hr {
   padding: 2px 16px;
 }
 
-#btn{
-    /* display:block;
+#btn {
+  /* display:block;
     background:  rgba(50, 22, 147, 255);
     cursor: pointer;
     color: white;
@@ -285,7 +279,6 @@ hr {
   position: relative;
   margin: 20px 0 40px;
   width: 470px;
-
 }
 
 .form-control input {
@@ -326,13 +319,12 @@ hr {
   color: lightblue;
   transform: translateY(-30px);
 }
-.footer-div{
+.footer-icon {
   margin-top: 70px;
   display: flex;
 }
 
-
-.style-recap{
+.style-recap {
   justify-content: center;
   align-items: center;
   display: flex;
