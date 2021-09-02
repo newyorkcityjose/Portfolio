@@ -334,23 +334,22 @@ hr {
 
 @media (max-width: 1000px){
   .hero{
-    background:none;
-  }
-  nav{
-    text-align: center;
-    padding: 10px;
+    height: 60vh;
+    margin: 0;
   }
   .background-text{
     font-size: 200px;
   }
   .card{
+    margin:20px;
     width: 100%;
   }
 
 }
 @media (max-width: 1200px){
   .hero{
-    /* background: white; */
+    height: 60vh;
+    margin: 0;
   }
   .background-text{
     font-size: 200px;
@@ -365,11 +364,15 @@ hr {
   .hero-text > p{
     opacity: 0.2;
   }
+  .listItem {
+    width: 0;}
 
 }
 
 @media (max-width: 800px){
   .hero{
-    /* margin-top: 100px;  */
+    /* height: 10vh; */
+    margin: 0;
   }
 }
+
