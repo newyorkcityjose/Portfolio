@@ -334,7 +334,7 @@ hr {
 @media only screen and (max-width: 1200px){
   .hero{
     height: 60vh;
-    top:1000px;
+ 
   }
   .background-text{
     font-size: 200px;
@@ -343,7 +343,7 @@ hr {
     width: 100%;
   }
   .hero-text{
-    /* margin-bottom: 850px; */
+    margin-bottom: 850px;
     font-size: 120px;
 
   }
@@ -351,6 +351,7 @@ hr {
     opacity: 0.2;
     font-size: 70px;
   }
+  
   .listItem {
     width: 0;}
 }
