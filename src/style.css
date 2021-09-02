@@ -331,25 +331,10 @@ hr {
   display: flex;
 }
 
-
-@media (max-width: 1000px){
+@media only screen and (max-width: 1200px){
   .hero{
-    height: 60vh;
-    margin: 0;
-  }
-  .background-text{
-    font-size: 200px;
-  }
-  .card{
-    margin:20px;
-    width: 100%;
-  }
-
-}
-@media (max-width: 1200px){
-  .hero{
-    height: 60vh;
-    margin: 0;
+    /* height: 60vh; */
+    top:1000px;
   }
   .background-text{
     font-size: 200px;
@@ -358,21 +343,36 @@ hr {
     width: 100%;
   }
   .hero-text{
-    margin-bottom: 500px;
+    /* margin-bottom: 850px; */
+    font-size: 120px;
 
   }
   .hero-text > p{
     opacity: 0.2;
+    font-size: 70px;
   }
   .listItem {
     width: 0;}
-
 }
-
-@media (max-width: 800px){
+@media only screen and (max-width: 600px) and (min-width: 400px) {
   .hero{
-    /* height: 10vh; */
+    /* height: 60vh; */
     margin: 0;
   }
-}
+  .hero-text{
+    /* margin-bottom: 100px; */
+    font-size: 120px;
 
+  }
+  .card{
+    margin:20px;
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 425px){
+  .hero-text{
+    /* margin-bottom: 850px; */
+    font-size: 120px;
+
+  }
+}
