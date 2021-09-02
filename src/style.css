@@ -165,14 +165,14 @@ hr {
 }
 .background-text {
   font-size: 300px;
-  position: relative;
+  position: absolute;
   opacity: 0.07;
-  right: 30px;
+  text-align: center;
   letter-spacing: 0.08em;
 }
 .sub-section .show-p {
-  position: absolute;
-  top: 1175px;
+  position: relative;
+  margin-top: 150px;
 }
 .show-p {
   font-size: 30px;
@@ -180,6 +180,7 @@ hr {
 .listItem {
   max-width: 320px;
   display: grid;
+  margin-top:200px;
   grid-template-columns: 1fr 1fr 1fr;
 }
 .listContainer {
@@ -328,4 +329,47 @@ hr {
   justify-content: center;
   align-items: center;
   display: flex;
+}
+
+
+@media (max-width: 1000px){
+  .hero{
+    background:none;
+  }
+  nav{
+    text-align: center;
+    padding: 10px;
+  }
+  .background-text{
+    font-size: 200px;
+  }
+  .card{
+    width: 100%;
+  }
+
+}
+@media (max-width: 1200px){
+  .hero{
+    /* background: white; */
+  }
+  .background-text{
+    font-size: 200px;
+  }
+  .card{
+    width: 100%;
+  }
+  .hero-text{
+    margin-bottom: 500px;
+
+  }
+  .hero-text > p{
+    opacity: 0.2;
+  }
+
+}
+
+@media (max-width: 800px){
+  .hero{
+    /* margin-top: 100px;  */
+  }
 }
