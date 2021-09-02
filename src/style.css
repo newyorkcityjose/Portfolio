@@ -333,7 +333,7 @@ hr {
 
 @media only screen and (max-width: 1200px){
   .hero{
-    /* height: 60vh; */
+    height: 60vh;
     top:1000px;
   }
   .background-text{
