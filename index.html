@@ -8,10 +8,9 @@
     />
     <link rel="stylesheet" href="./src/style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
   </head>
   <body>
-    <section class="hero" id="home">
+    <section style='height:auto' id="home">
       <nav>
         <div>
           <ul>
@@ -23,7 +22,7 @@
         <div class="social-icon">
           <div class="icon">
             <a target="_blank" href="https://www.linkedin.com/in/jose-tavarez"
-              ><svg 
+              ><svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="#ffffff"
                 width="25"
@@ -52,11 +51,10 @@
           </div>
         </div>
       </nav>
-      <div class="hero-area">
-        <div class="hero-text">
-          <h1>Jose Tavarez</h1>
-          <p>Full Stack Developer</p>
-        </div>
+      <div class="hero-area hero"></div>
+      <div class="hero-text">
+        <h1>Jose Tavarez</h1>
+        <p>Full Stack Developer</p>
       </div>
     </section>
 
@@ -64,7 +62,7 @@
       <div class="information">
         <h2><a href="#home">About me</a></h2>
         <hr class="underline" />
-       
+
         <p class="show-p">
           I'm a full stack developer, I have a passion for creating a product
           from the ground up.
@@ -145,16 +143,22 @@
               <h4><b>Read News Comment</b></h4>
               <p>
                 The number one reason I build this site is because there are
-                always two side to a story and sometimes the news does not have all
-                the facts. I want to build a site where all sides is heard and
-                having multiple sources available. 
+                always two side to a story and sometimes the news does not have
+                all the facts. I want to build a site where all sides is heard
+                and having multiple sources available.
               </p>
             </div>
             <div class="card-div-link">
-              <a href="http://www.github.com/newyorkcityjose" target="_blank" class="card-link"
+              <a
+                href="http://www.github.com/newyorkcityjose"
+                target="_blank"
+                class="card-link"
                 >Github</a
               >
-              <a href="https://readnewscomment.herokuapp.com/" target="_blank" class="card-link"
+              <a
+                href="https://readnewscomment.herokuapp.com/"
+                target="_blank"
+                class="card-link"
                 >Demo</a
               >
             </div>
@@ -164,10 +168,9 @@
     </section>
 
     <footer id="contact">
-      <h2><a href="#home" style="color: white;">Contact me</a></h2>
+      <h2><a href="#home" style="color: white">Contact me</a></h2>
       <hr class="underline" />
       <div class="container-form">
-
         <form action="POST" data-netlify="true" data-netlify-recaptcha="true">
           <div class="form-control">
             <input type="text" name="name" required />
@@ -181,12 +184,11 @@
             <input type="text" name="message" required />
             <label>Message</label>
           </div>
-          <div class="form-control style-recap" >
+          <div class="form-control style-recap">
             <div data-netlify-recaptcha="true"></div>
           </div>
 
           <button class="btn">Submit</button>
-
         </form>
       </div>
       <div class="footer-icon">
@@ -221,7 +223,7 @@
         </div>
       </div>
     </footer>
- 
+
     <script src="./src/index.js"></script>
   </body>
 </html>
