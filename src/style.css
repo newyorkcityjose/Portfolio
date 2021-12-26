@@ -85,10 +85,14 @@ a {
 }
 
 .hero-text {
-  margin-left: 80px;
+  margin-left: 28px;
   margin-bottom: 72px;
   position: absolute;
-  top: 58px;
+  top: 50%;
+}
+.hero-text > p {
+  opacity: 0.2;
+  font-size: 43px;
 }
 
 .socials {
@@ -130,7 +134,7 @@ a {
   justify-content: space-around;
 }
 .icon {
-  margin-left: 25px;
+  margin: 15px 25px;
 }
 
 hr {
@@ -181,7 +185,7 @@ hr {
   text-align: center;
   letter-spacing: 0.08em;
   top: -13vw;
-  left: 0;
+  left: -20px;
 }
 @media screen and (max-width: 600px) {
   .sub-section .show-p::before {
@@ -202,6 +206,7 @@ hr {
 .listContainer {
   padding: 20px;
   width: 184px;
+  text-align: center;
 }
 .listTitle {
   font-size: 35px;
@@ -349,7 +354,7 @@ hr {
   display: flex;
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1400px) {
   .hero {
     background-position: center;
     height: 72vh;
@@ -366,7 +371,6 @@ hr {
     position: relative;
   }
   .hero-text > p {
-    opacity: 0.2;
     font-size: 70px;
   }
 }
@@ -400,9 +404,59 @@ hr {
     margin: 20px 80px;
   }
 }
+@media only screen and (max-width: 350px) {
+  h1 {
+    font-size: 42px;
+  }
+  .hero-text > p {
+    font-size: 41px;
+  }
+  .sub-section .show-p::before {
+    font-size: 23vw;
+  }
+  .information > *:not(.listItem) {
+    margin: 20px 60px;
+  }
+  .listItem {
+    margin-top: 100px;
+  }
+  .form-control label {
+    left: 17vw;
+  }
+  ul {
+    flex-direction: column;
+    align-items: center;
+  }
+  ul li {
+    padding: 5px;
+    border-bottom: 2px solid black;
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+  }
+}
+@media only screen and (max-width: 315px) {
+  body {
+    overflow: hidden;
+    height: 100vh;
+  }
+  body::before {
+    height: 1500px;
+    background-color: red;
+    width: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    content: 'too small';
+    position: fixed;
+    z-index: 5;
+  }
+}
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1400px) {
   .hero {
     min-height: 800px;
+    background-position: right;
   }
 }
